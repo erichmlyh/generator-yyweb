@@ -1,0 +1,1 @@
+export { API_ORIGIN as default } from "origin"
