@@ -35,8 +35,8 @@
                 }
                 function resetScreen() {
                     window.scrollTo(0,0);
-                    var height = html.clientHeight || window.innerHeight;
-                    var width = html.clientWidth || window.innerWidth;
+                    var height = html.clientHeight || window.outerHeight;
+                    var width = html.clientWidth || window.outerWidth;
                     document.querySelector('body').style.height = height + 'px';
                     document.querySelector('body').style.width = width + 'px';
                 }
